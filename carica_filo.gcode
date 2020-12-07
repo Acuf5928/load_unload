@@ -3,7 +3,8 @@
 ;└──────────────────────────────────────────────────────────────────┘
 ;Ver 2.0
 ;date: 20/06/2020
-;author: Dazero.it
+;original author: Dazero.it
+;modified by: Acuf5928
 ;───────────────────────────────────────────────────────────────────
 G21					;Unita millimetri
 M82					;Posizione assoluta estrusore
