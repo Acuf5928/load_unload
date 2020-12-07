@@ -9,8 +9,8 @@ G21					;Unita millimetri
 M82					;Posizione assoluta estrusore
 ;───────────────────────────────────────────────────────────────────
 M117 E Riscaldamento...
-M104 S205			;Imposta temperatura hotend
-M109 S205			;Imposta temperatura hotend e aspetta
+M104 S200			;Imposta temperatura hotend
+M109 S200		;Imposta temperatura hotend e aspetta
 ;───────────────────────────────────────────────────────────────────
 M0 Carica e premi OK	;Disabilitare con schermi TOUCH !
 ;───────────────────────────────────────────────────────────────────
