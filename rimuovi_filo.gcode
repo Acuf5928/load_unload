@@ -9,6 +9,8 @@ G21					;Unita millimetri
 M82					;Posizione assoluta estrusore
 ;───────────────────────────────────────────────────────────────────
 M117 E Riscaldamento...
+G91                 ;Relative positioning
+G1 Z10 F2400        ;Retract and raise Z
 M104 S200			;Imposta temperatura hotend
 M109 S200		    ;Imposta temperatura hotend e aspetta
 ;───────────────────────────────────────────────────────────────────
