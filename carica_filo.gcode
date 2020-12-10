@@ -11,9 +11,9 @@ M82					;Posizione assoluta estrusore
 ;───────────────────────────────────────────────────────────────────
 M117 E Riscaldamento...
 G91                 ;Relative positioning
-G1 Z10 F2400   ;Retract and raise Z
-M104 S200			;Imposta temperatura hotend
-M109 S200		;Imposta temperatura hotend e aspetta
+G1 Z50 F2400        ;Retract and raise Z
+M104 S210			;Imposta temperatura hotend
+M109 S210		    ;Imposta temperatura hotend e aspetta
 ;───────────────────────────────────────────────────────────────────
 M0 Carica e premi OK	;Disabilitare con schermi TOUCH !
 ;───────────────────────────────────────────────────────────────────
