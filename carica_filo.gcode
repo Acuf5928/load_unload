@@ -20,7 +20,7 @@ M0 Carica e premi OK	;Disabilitare con schermi TOUCH !
 M117 Caricamento...
 G4 S1				;Pausa 1 secondo
 G92 E0				;Reset posiszione estrusore
-G1 E340 F3000		;Caricamento filamento
+G1 E330 F3000		;Caricamento filamento
 G92 E0				;Reset posiszione estrusore	
 G1 E50 F1500		;Caricamento filamento ultima parte a velocià bassa
 G92 E0				;Reset posiszione estrusore	

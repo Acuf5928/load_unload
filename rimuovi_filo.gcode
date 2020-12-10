@@ -24,7 +24,7 @@ G4 P500				;Pausa 500 ms
 M400				;Aspetta fine movimenti
 ;───────────────────────────────────────────────────────────────────
 G92 E0				;Reset posiszione estrusore
-G1 E-400 F3000		;Rimozione filamento
+G1 E-370 F3000		;Rimozione filamento
 G92 E0				;Reset posiszione estrusore	
 G1 E-50 F1500		;Rimozione filamento ultima parte a velocià bassa
 G92 E0				;Reset posiszione estrusore	
