@@ -19,7 +19,7 @@ M117 Rimozione...
 ;───────────────────────────────────────────────────────────────────
 G4 S1				;Pausa 1 secondo
 G92 E0				;Reset posiszione estrusore
-G1 E3 F300			;Prevenzione intasamento hotend
+G1 E3 F100			;Prevenzione intasamento hotend
 G4 P500				;Pausa 500 ms
 M400				;Aspetta fine movimenti
 ;───────────────────────────────────────────────────────────────────

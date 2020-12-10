@@ -27,7 +27,7 @@ G92 E0				;Reset posiszione estrusore
 M400				;Aspetta fine movimenti
 ;───────────────────────────────────────────────────────────────────
 G4 P500				;Pausa 500 ms
-G1 E100 F200		;Spurgo filamento
+G1 E100 F100		;Spurgo filamento
 M400				;Aspetta fine movimenti
 ;───────────────────────────────────────────────────────────────────
 M117 Fine caricamento
