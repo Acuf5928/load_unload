@@ -29,5 +29,6 @@ M400				;Aspetta fine movimenti
 G4 P500				;Pausa 500 ms
 G1 E100 F100		;Spurgo filamento
 M400				;Aspetta fine movimenti
+G90                 ;Absolute positionning
 ;───────────────────────────────────────────────────────────────────
 M117 Fine caricamento

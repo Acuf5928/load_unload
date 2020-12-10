@@ -29,5 +29,6 @@ G92 E0				;Reset posiszione estrusore
 G1 E-50 F1500		;Rimozione filamento ultima parte a velocià bassa
 G92 E0				;Reset posiszione estrusore	
 M400				;Aspetta fine movimenti
+G90                 ;Absolute positionning
 ;───────────────────────────────────────────────────────────────────
 M117 Fine rimozione
